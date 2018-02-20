@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5, p{
+  color:#7f7f7f;
+  font-family: Roboto, sans-serif;
+}
+.ui.menu,
+.menu {
+  background: #222;
+  padding: 5px;
+}
+
+.text.nav,
+i {
+  color:#7f7f7f;
+  font-size:16px;
+  font-family: Roboto, sans-serif;
+}
+
+.slider {
+  background: url("./blade-promo-1802-desktop-2x.jpg") no-repeat;
+  background-size: contain;
+  height: 100%;
+  text-align: center;
+
+}
+.slider h1{
+  padding-top:4.375rem;
+  font-weight: 500;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+.usFlag {
+  background: url("./flags.png") no-repeat 0 -2px;
+  margin-right:5px;
+  width: 18px;
+  height: 12px;
+}
