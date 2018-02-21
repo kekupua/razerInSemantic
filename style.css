@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, p{
   color:#7f7f7f;
   font-family: Roboto, sans-serif;
 }
+
+html, body {
+  background: #222;
+}
 .ui.menu,
 .menu {
   background: #222;
@@ -17,10 +21,10 @@ i {
 
 .slider {
   background: url("./blade-promo-1802-desktop-2x.jpg") no-repeat;
-  background-size: contain;
-  height: 100%;
+  background-size: 100% 100%;
+  width: 100%;
   text-align: center;
-
+  min-height: 480px;
 }
 .slider h1{
   padding-top:4.375rem;
@@ -35,3 +39,25 @@ i {
   width: 18px;
   height: 12px;
 }
+
+.drive {
+  background: url("Zone-Hybris-C-Portal.jpg") no-repeat center center;
+  min-height: 250px;
+  width: 100%;
+  background-size:100% 100%;
+  text-align:center;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+.footer {
+  margin: 50px 0;
+}
+
+.rIcon{
+  height:38px;
+  width: 38px;
+  margin: 0 5px;
+}
+
+
